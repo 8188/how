@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "how"
+version = "0.1.0"
+description = ""
+authors = ["8188 <posuiredstar@163.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pyod = "^2.0.2"
+python-dotenv = "^1.0.1"
+statsmodels = "^0.14.2"
+outlier-utils = "^0.0.5"
+sranodec = "^0.0.1"
+redis = "^5.0.8"
+aiomqtt = "^2.3.0"
+orjson = "^3.10.7"
+dependency-injector = "^4.41.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[[tool.poetry.source]]
+name = "mirrors"
+url = "https://pypi.tuna.tsinghua.edu.cn/simple/"
+priority = "primary"
